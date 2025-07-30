@@ -1,0 +1,2 @@
+# CS322M-230121016
+CS minor labs
