@@ -12,6 +12,6 @@ always begin
 end
 in the testbench file
 
-#Viewing the waveform
+##Viewing the waveform
 (The design has been simulated for 20 seconds with a 100Hz clock)
 to view the waveform run the test.vcd file using the following command from the file directory in the terminal, "gtkwave test.vcd"
