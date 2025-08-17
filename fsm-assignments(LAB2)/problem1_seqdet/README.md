@@ -15,5 +15,5 @@ Output: output(y) pulse at index '3'
 Sequence 2: '110110100'
 Output: output(y) pulse at indices '3' and '6'
 
-# Viewing the waveform
+## Viewing the waveform
 To view the output waveforms, run the .vcd file using gtk wave via the terminal using the command: gtkwave <file_name>.vcd
