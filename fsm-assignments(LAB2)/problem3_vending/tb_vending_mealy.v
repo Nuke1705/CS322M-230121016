@@ -23,33 +23,26 @@ initial begin
     rst = 0;
     
     @(negedge clk); coin = 2'b01;
-    @(negedge clk); coin = 2'b00;
     @(negedge clk); coin = 2'b01;
-    @(negedge clk); coin = 2'b00;
     @(negedge clk); coin = 2'b10;
 
     @(negedge clk); coin = 2'b00;
 
     @(negedge clk); coin = 2'b01;
-    @(negedge clk); coin = 2'b00;
     @(negedge clk); coin = 2'b10;
-    @(negedge clk); coin = 2'b00;
     @(negedge clk); coin = 2'b10;
 
     @(negedge clk); coin = 2'b00;
 
     @(negedge clk); coin = 2'b10;
-    @(negedge clk); coin = 2'b00;
     @(negedge clk); coin = 2'b01;
-    @(negedge clk); coin = 2'b00;
     @(negedge clk); coin = 2'b01;
-
-    @(negedge clk); coin = 2'b00;
 
     #100;
 
     $finish;
 
 end
+
 
 endmodule
