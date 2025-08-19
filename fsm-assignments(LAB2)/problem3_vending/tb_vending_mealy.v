@@ -38,6 +38,8 @@ initial begin
     @(negedge clk); coin = 2'b01;
     @(negedge clk); coin = 2'b01;
 
+    @(negedge clk); coin = 2'b00;
+
     #100;
 
     $finish;
@@ -46,3 +48,4 @@ end
 
 
 endmodule
+
