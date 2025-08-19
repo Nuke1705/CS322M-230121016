@@ -5,6 +5,7 @@ module seq_detect_mealy(
     output wire y);
 
     reg [1:0] state_present, state_next;
+    reg store; // to store output for one cycle
 
     parameter init = 2'b00;
     parameter one = 2'b01;
@@ -38,5 +39,16 @@ module seq_detect_mealy(
             default: state_next = init;
         endcase
     end
-    assign y = (state_present == three)&&din;
+
+    always @(posedge clk) begin
+    if (rst) begin
+        store <= 1'b0;
+    end else begin
+        store <= 1'b0;
+
+        if ((state_present == three)&&din) store <= 1'b1;
+    end
+end
+    assign y = store;
+
 endmodule
