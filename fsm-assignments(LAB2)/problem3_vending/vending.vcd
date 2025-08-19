@@ -1,0 +1,264 @@
+$date
+	Tue Aug 19 12:30:01 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ms
+$end
+$scope module tb_vending_mealy $end
+$var wire 1 ! dispense $end
+$var wire 1 " chg5 $end
+$var reg 1 # clk $end
+$var reg 2 $ coin [1:0] $end
+$var reg 1 % rst $end
+$scope module dut $end
+$var wire 1 " chg5 $end
+$var wire 1 # clk $end
+$var wire 2 & coin [1:0] $end
+$var wire 1 ! dispense $end
+$var wire 1 % rst $end
+$var parameter 3 ' fifteen $end
+$var parameter 3 ( five $end
+$var parameter 3 ) init $end
+$var parameter 3 * ten $end
+$var reg 3 + state_next [2:0] $end
+$var reg 3 , state_present [2:0] $end
+$var reg 1 - x $end
+$var reg 1 . y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 *
+b0 )
+b1 (
+b11 '
+$end
+#0
+$dumpvars
+x.
+x-
+bx ,
+bx +
+b0 &
+1%
+b0 $
+0#
+x"
+x!
+$end
+#5
+b0 +
+b0 ,
+0"
+0.
+0!
+0-
+1#
+#10
+0#
+#12
+0%
+#15
+1#
+#20
+b1 +
+b1 $
+b1 &
+0#
+#25
+b10 +
+b1 ,
+1#
+#30
+b1 +
+b0 $
+b0 &
+0#
+#35
+1#
+#40
+b10 +
+b1 $
+b1 &
+0#
+#45
+b11 +
+b10 ,
+1#
+#50
+b10 +
+b0 $
+b0 &
+0#
+#55
+1#
+#60
+b0 +
+b10 $
+b10 &
+0#
+#65
+b10 +
+b0 ,
+1!
+1-
+1#
+#70
+b0 +
+b0 $
+b0 &
+0#
+#75
+0!
+0-
+1#
+#80
+b1 +
+b1 $
+b1 &
+0#
+#85
+b10 +
+b1 ,
+1#
+#90
+b1 +
+b0 $
+b0 &
+0#
+#95
+1#
+#100
+b11 +
+b10 $
+b10 &
+0#
+#105
+b0 +
+b11 ,
+1#
+#110
+b11 +
+b0 $
+b0 &
+0#
+#115
+1#
+#120
+b0 +
+b10 $
+b10 &
+0#
+#125
+b10 +
+b0 ,
+1"
+1.
+1!
+1-
+1#
+#130
+b0 +
+b0 $
+b0 &
+0#
+#135
+0"
+0.
+0!
+0-
+1#
+#140
+b10 +
+b10 $
+b10 &
+0#
+#145
+b0 +
+b10 ,
+1#
+#150
+b10 +
+b0 $
+b0 &
+0#
+#155
+1#
+#160
+b11 +
+b1 $
+b1 &
+0#
+#165
+b0 +
+b11 ,
+1#
+#170
+b11 +
+b0 $
+b0 &
+0#
+#175
+1#
+#180
+b0 +
+b1 $
+b1 &
+0#
+#185
+b1 +
+b0 ,
+1!
+1-
+1#
+#190
+b0 +
+b0 $
+b0 &
+0#
+#195
+0!
+0-
+1#
+#200
+0#
+#205
+1#
+#210
+0#
+#215
+1#
+#220
+0#
+#225
+1#
+#230
+0#
+#235
+1#
+#240
+0#
+#245
+1#
+#250
+0#
+#255
+1#
+#260
+0#
+#265
+1#
+#270
+0#
+#275
+1#
+#280
+0#
+#285
+1#
+#290
+0#
